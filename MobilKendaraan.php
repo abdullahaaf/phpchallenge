@@ -3,6 +3,11 @@
     include 'Mobil.php';
     include 'Kendaraan.php';
 
+    /**
+     * class ini mengimplementasikan interface kendaraan
+     * dan abstract class mobil
+     */
+
     class MobilKendaraan extends Mobil implements Kendaraan
     {
         public function brand($brand)
