@@ -1,5 +1,7 @@
 <?php
-
+    /**
+     * this class to echo
+     */
     include 'MobilKendaraan.php';
 
     $mobilkendaraan = new MobilKendaraan();
