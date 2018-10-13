@@ -4,6 +4,7 @@
      */
     include 'MobilKendaraan.php';
 
+    // create object class MobilKendaraan
     $mobilkendaraan = new MobilKendaraan();
     echo $mobilkendaraan->brand("Ferrari");
     echo "<br/>";
